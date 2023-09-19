@@ -1,0 +1,128 @@
+body{
+    color: white;
+    background-color:#173f6f;
+
+}
+.container{
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+}
+.container * {
+    box-sizing: border-box;
+}
+.header{
+    align-items: center;
+    margin: 0 20px;
+}
+.header-part{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.header-part  li{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.header-part >li>nav>ul{
+display: flex;
+justify-content: space-around;
+margin-top: 30px;
+}
+.stile-option ul li{
+    letter-spacing: .09em;
+    padding: 0 10px;
+    flex-wrap: wrap;
+}
+ .header-part li button{
+    border-radius: 15px;
+    letter-spacing: .09em;
+    margin: auto;
+    padding: 8px 16px;
+    text-transform: uppercase;
+
+}
+.stile-option ul li a{
+    color: white;
+    text-decoration: none;
+}
+.header-part li p{
+    font-size: 28px;
+}
+.center-pagi{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 15px;
+    margin: auto;
+    
+    
+}
+.center-right img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    
+}
+.center-left,.center-right,.center-center{
+    padding: 0 25px;
+    
+      
+}
+.center-left ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    padding: 20px 15px;
+    
+}
+.center-left ul li{
+    margin: 15px;
+}
+.center-left ul li h1{
+    font-size: 45px;
+}
+
+.center-left ul li p{
+    font-size: 20px;
+}
+.center-left ul li button{
+    border-radius: 15px;
+    letter-spacing: .09em;
+    margin: 15px;
+    padding: 8px 16px;
+    background-color: lightskyblue;
+    padding: 9px;
+    font-weight: bold;
+}
+.center-center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.formulario{
+    list-style-type: none;
+}
+.center-center h1{
+    text-align: center;
+    font-size: 25px;
+}
+.formulario > li >input  {
+    padding: 6px 26px ;
+    margin: 6px 0;
+}
+.formulario li button{
+    padding: 6px 86px ;
+    
+}
+
+.image-size{
+    width: 150px;
+    height: 150px;
+}
+.stile-option{
+    list-style-type: none;
+}
